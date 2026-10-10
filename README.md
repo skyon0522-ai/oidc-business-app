@@ -2,6 +2,8 @@
 
 A small source-derived demo of a business-style browser flow. A user signs in through a locally running Keycloak server, keeps a fictional request draft through the redirect, and can preview it after the adapter refresh and UserInfo identity checks succeed.
 
+Start with the [flow](#quick-demonstration) and [complete local setup](example/README.md). The authored [browser flow](example/public/app.js) and [Express endpoint](example/server/app.js) are exercised by [selected Chromium tests](example/test/tests/business-app.spec.ts). [Design notes](example/DESIGN.md), [CI scope](docs/CI.md), and [source provenance](PROVENANCE.json) explain the inherited adapter and verification boundary.
+
 ## Quick demonstration
 
 The page begins signed out. After local sign-in, the page shows the verified identity and enables a synthetic preview. The Express endpoint increments an in-memory counter for the selected realm; it does not retain the draft or identity. If the request is accepted but its response is lost, the UI keeps the draft and reports an unknown result. The server-side counter may already have changed, so a retry is not automatically safe.
