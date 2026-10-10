@@ -12,7 +12,7 @@ The checkout and setup-node references are exact commits resolved from the same 
 
 ## Verification boundary
 
-The public source's earlier local result is 13/13 selected Chromium tests in a retained distribution-based environment. This new container-based hosted workflow has not been run or proven equivalent to that environment. Static workflow and shell checks are recorded separately in the private review packet; they are not a hosted test pass. A passing CI badge should be added only after observing the first real run.
+The public source's earlier local result is 13/13 selected Chromium tests in a retained distribution-based environment. The [first GitHub-hosted run](https://github.com/skyon0522-ai/oidc-business-app/actions/runs/38028982749), on [source commit 59260fd](https://github.com/skyon0522-ai/oidc-business-app/commit/59260fddd0317c5c90243652c09d9249599f3219), passed all 13 selected Chromium tests in 41.2 seconds on October 10, 2026. The workflow used the declared pinned Keycloak container, and its owned-container removal step succeeded. This result covers the selected suite; it does not establish equivalence to every distribution-based environment. Static workflow and shell checks are recorded separately in the private review packet; they are not a hosted test pass. A passing CI badge should be added only after observing the first real run.
 
 The existing root README's application limits, reviewed-paper fit, historical baseline failures and security boundaries still apply. This workflow does not add backend authorization, idempotency or a production deployment.
 
