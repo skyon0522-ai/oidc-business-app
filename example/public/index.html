@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Business request workspace — local SSO demo</title>
+  <link rel="stylesheet" href="/app.css">
+  <script type="importmap">
+    { "imports": { "keycloak-js": "/lib/keycloak.js" } }
+  </script>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to workspace</a>
+  <header class="shell">
+    <p class="eyebrow">LOCAL SYNTHETIC DEMO</p>
+    <h1>Business request workspace</h1>
+    <p>Sign in through a local Keycloak server, keep a short draft through the redirect, and preview one protected action.</p>
+    <details>
+      <summary>What this demo does</summary>
+      <p>This page demonstrates client-side OIDC flow and a synthetic in-memory preview. The action endpoint is not server-authorized and does not process a real business request. Use fictional text only. The application listens on 127.0.0.1.</p>
+    </details>
+  </header>
+
+  <main class="shell" id="workspace">
+    <section class="panel access" aria-labelledby="access-heading">
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">IDENTITY</p>
+          <h2 id="access-heading">Sign in</h2>
+        </div>
+        <span id="auth-badge" class="badge" data-state="checking">Checking</span>
+      </div>
+      <p id="auth-status" role="status" aria-live="polite">Checking the local sign-in state…</p>
+      <p id="identity" class="identity" hidden></p>
+      <div class="button-row">
+        <button id="login" type="button" disabled>Sign in with local Keycloak</button>
+        <button id="logout" class="secondary" type="button" hidden>Sign out</button>
+      </div>
+    </section>
+
+    <p id="error" class="notice error" role="alert" tabindex="-1" hidden></p>
+    <p id="feedback" class="notice success" role="status" aria-live="polite" hidden></p>
+
+    <div class="workspace-grid">
+      <section class="panel" aria-labelledby="draft-heading">
+        <p class="eyebrow">SYNTHETIC WORK ITEM</p>
+        <h2 id="draft-heading">Draft a short request</h2>
+        <p id="draft-help">This fictional draft stays in this browser tab during the Keycloak redirect. Do not enter personal, customer, or confidential information.</p>
+        <label for="draft">Request draft</label>
+        <textarea id="draft" name="draft" rows="5" maxlength="280" aria-describedby="draft-help draft-count" placeholder="Example: Prepare a sample handoff checklist for a fictional team."></textarea>
+        <div class="field-meta"><small id="draft-count">0 / 280</small><button id="clear-draft" class="text-button" type="button">Clear draft</button></div>
+      </section>
+
+      <section class="panel action-panel" aria-labelledby="action-heading">
+        <p class="eyebrow">CLIENT-SIDE GATE</p>
+        <h2 id="action-heading">Preview the request</h2>
+        <p>The app refreshes the session, fetches the real Keycloak UserInfo response, and checks its subject before sending this synthetic action.</p>
+        <button id="protected-action" type="button" disabled>Run synthetic preview</button>
+        <p id="action-state" class="muted">Available after a verified local sign-in.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="shell"><small>Source-derived local example · JavaScript + official Keycloak JavaScript adapter · No external assets or customer systems.</small></footer>
+</body>
+</html>

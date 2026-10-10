@@ -1,0 +1,1287 @@
+{
+  "schemaVersion": 1,
+  "status": "Private curation draft; not published.",
+  "sourceProvenanceSHA256": "96284347c91a9d3406947290bf407086024f3ba9667a850d0e2f855c79bc0664",
+  "upstream": {
+    "repository": "keycloak/keycloak-js",
+    "commit": "8803e6b54a4ba6f9dc0150d0329c98e7902a9ee8",
+    "tree": "f65a4477db9cfac7fd7cc88433b6f152a898cf6f",
+    "trackedFiles": 66,
+    "trackedBytes": 501357,
+    "license": "Apache-2.0",
+    "sourceManifestSHA256": "7af91386f6d3206e5f30cd120d8ef28a6f799ccc223434396f1983d5aed591d9",
+    "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "exactComponentFiles": [
+    {
+      "path": "copied-component/.github/actions/setup/action.yml",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "c03b5a4bb45517fd8d7d601511abd28a10b67b84",
+      "bytes": 544,
+      "sha256": "0fee04667a6772f648b9ef50cbf98f990a64e5fa13006aa1a06a00d89108db21"
+    },
+    {
+      "path": "copied-component/.github/CODEOWNERS",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "939c2e5aba7ceb085f7d220e99a64e0d4e5c1984",
+      "bytes": 49,
+      "sha256": "61e68fc36874bb8e22a1d61d24a24ca65d74d9e12d75f496b4abc21bf92daeab"
+    },
+    {
+      "path": "copied-component/.github/dependabot.yml",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "70fd983b4d64ab6fd2d7ebf10666c6333c5fce1e",
+      "bytes": 441,
+      "sha256": "a09316aca4b2e8a263f5c806158f4c6f9a9477e3ff9471ea3309609b03041b2b"
+    },
+    {
+      "path": "copied-component/.github/workflows/main.yml",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "9024c04692603a8efa3ddb99eafb29b1d6f216e9",
+      "bytes": 1071,
+      "sha256": "2fe85e3f54eae00972fe817b3479c3546f795fe9d93df734ec49a843cb316eba"
+    },
+    {
+      "path": "copied-component/.github/workflows/release-nightly.yml",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "f0f77e1c5ed02b346aeb7e5525c046486955fbd8",
+      "bytes": 377,
+      "sha256": "f8c766ef06c280646ac422f13a7b7b2949326f078244e3c65f85a2adc3f7518c"
+    },
+    {
+      "path": "copied-component/.github/workflows/release.yml",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "c66319b50425f7ec51ebc8bc6f807cf2cb27470f",
+      "bytes": 387,
+      "sha256": "2fc362a38d8fa1ddd1fdc5706468982c17bd0b55bb6a4ff51521bae72cfc2094"
+    },
+    {
+      "path": "copied-component/.github/workflows/x-release.yml",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "54fe78cd10267b5b1e310bd857d6787c2dfc15f5",
+      "bytes": 3388,
+      "sha256": "752747e8ba4bbe816e0825eaf2e10a9ae2468b8502ebabbdb1c4736db865cb89"
+    },
+    {
+      "path": "copied-component/.gitignore",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "5549a98cdf625ed9adecd5febe6404eaf0550cfc",
+      "bytes": 1587,
+      "sha256": "1eb76c313815a61a2bd5085701e23d827a1cd61cc4cc3816f2ef5fc472a16027"
+    },
+    {
+      "path": "copied-component/CONTRIBUTING.md",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "6142565eb18415d340a328e8536528273cd0b0e3",
+      "bytes": 622,
+      "sha256": "4f7c2273ee312e2e5619addd75a41affd8c9df6a412a484e24da8f887a1c2fc6"
+    },
+    {
+      "path": "copied-component/docs/guides/attributes.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "a51cecf71aaf0da950342b55bf4f651ef9a1272d",
+      "bytes": 296,
+      "sha256": "6d28d59e673aab66ea542d330516b1a458807e94a40c33e57b1456383614a9da"
+    },
+    {
+      "path": "copied-component/docs/guides/guides.mjs",
+      "sourceGitMode": "100755",
+      "gitBlobSHA1": "9848bb7cc74fb4efe5013e8cf5b732c542cb4a19",
+      "bytes": 4780,
+      "sha256": "1d2380e6d6c37e84fc953eafedb3fd596e5e15e1513e0ba2e349ceae52d6d827"
+    },
+    {
+      "path": "copied-component/docs/guides/images/logo.svg",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "74f50ab4b0fe2ecf879d43dc4f051c5646c9ff84",
+      "bytes": 7562,
+      "sha256": "f2498d34a4a4a0ec047576b5d58995fafe16e400829887c7fde0ff69047645c1"
+    },
+    {
+      "path": "copied-component/docs/guides/securing-apps/javascript-adapter.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "b747a47bbc79ba86cb47262dc1399df1614e0fe7",
+      "bytes": 34765,
+      "sha256": "c64a3033adc13bea0caa0689ae9813850ae83c80f0f0272879f49f6d41024a61"
+    },
+    {
+      "path": "copied-component/docs/guides/templates/guide.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "5184efed4dd865e291bddef3f578b2167647179b",
+      "bytes": 1041,
+      "sha256": "4f4446581fd65782969d182ed332c8c8ee973906213596fe87d3255d74f4d08c"
+    },
+    {
+      "path": "copied-component/docs/guides/templates/links.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "b2f12d9e83cc884eda54a0201dab8945d2599684",
+      "bytes": 148,
+      "sha256": "fc456cfdd27271b77095a2c93ebc610dfd01fb69be0acff22101f40c3d6f3635"
+    },
+    {
+      "path": "copied-component/docs/guides/templates/options.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "43d5bf1dad03fe155ea33f566a6a66e577aab298",
+      "bytes": 2079,
+      "sha256": "d4123fc046f4732dda1d2433bbc28cdef236dc16f4ee3fb346a6d8819419d542"
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_0.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "8b3e00338dbf4487796ef299c376a38156d3ecf3",
+      "bytes": 2810,
+      "sha256": "f2e30b3d526d5cdf2b1f8239c25abaa5a58d83af300c485728e173912e1db575"
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_1.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "3ef3088afb618cbd325b4f9545f3e21b7d9a6269",
+      "bytes": 577,
+      "sha256": "63021dd2dc578d6d58d0345f2bcd4791720b32cfd3b895109f66cfe959b94c10"
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_2.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "10e8c125399931faf4d9cc3e663d1b07bd5d6454",
+      "bytes": 2585,
+      "sha256": "18f23e8e5df7108742f11c206ab5ffadd031b94ad4dbc2b579c01b8797d21b1f"
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_3.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "0ceabf727f2dc751a72f513c67019f97c3d93098",
+      "bytes": 723,
+      "sha256": "072151d26fe2ed6583b29ec6ef4e3a8712951670c50d62b7bf1e9be51665c31c"
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_4.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "cb795c96c105478e7c8a79c0566f97b4278aac9d",
+      "bytes": 1138,
+      "sha256": "921f0e71bafa25d3f788bdc424b9e409e1599e716722371e091d6f7b1959d688"
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_3_0.adoc",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "9ab72fc3d388939aaa170e8147f1546e67eeec36",
+      "bytes": 3021,
+      "sha256": "93170402c221125fc805e652cca032f6be0a1e46cc94dfb76d0382a0d85a2afc"
+    },
+    {
+      "path": "copied-component/GOVERNANCE.md",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "d05dae2a5dfa808210105d5deb94ac0e1152b5a3",
+      "bytes": 150,
+      "sha256": "57f0915dde188b28e83af41fe938c465615d519aba180d1e56f452c5ee903973"
+    },
+    {
+      "path": "copied-component/lib/deprecations.js",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "6f69d395b7ce5b75bcf0f56aa9feb7f6b85981df",
+      "bytes": 1122,
+      "sha256": "afaac168f913d2a38bedac7517861ae61d44f60e189bd797dc61802d6dadab2d"
+    },
+    {
+      "path": "copied-component/lib/keycloak-authz.d.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "211b913649286dc660cc466c6cc3882dcf61bd84",
+      "bytes": 5425,
+      "sha256": "523226e9c18da63b9767197613030b8be08e13f80679a0a50d069002fd7ce8e7"
+    },
+    {
+      "path": "copied-component/lib/keycloak-authz.js",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "b9b6b5d50f1d91cba6fc2246114c39fcabdbb3a2",
+      "bytes": 9278,
+      "sha256": "8da4ce8af55dc7e81cc5851c964861fc39678c41b6513edd8a6ccf31be4acf8d"
+    },
+    {
+      "path": "copied-component/lib/keycloak-dpop.d.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "17d2e090b21826bd74977b6a2ef3ba1929cd3e94",
+      "bytes": 3010,
+      "sha256": "5b4e835e93a19c3f40bd76461f2275049010049cc650b88c37fc318685e87599"
+    },
+    {
+      "path": "copied-component/lib/keycloak-dpop.js",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "a19dcfedbfeeb62d2a0e3f86d0bba2610cec0a1b",
+      "bytes": 16485,
+      "sha256": "45d40a8b5b6cf87d80b269d1c7f41aa14b8c838c8bce15345c1ca3219cdb6f86"
+    },
+    {
+      "path": "copied-component/lib/keycloak.d.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "9ffe8afc97e845d21921a4302d48a197ac4abdcf",
+      "bytes": 21804,
+      "sha256": "69181fac5159cf3179c15967555aa87009c7c8fbc7bd9188b76891162a6e5fca"
+    },
+    {
+      "path": "copied-component/lib/keycloak.js",
+      "sourceGitMode": "100755",
+      "gitBlobSHA1": "a068cf75dcfbdff3a06d2bef6c6b1f204686f704",
+      "bytes": 71792,
+      "sha256": "e77ac54c8501a4e93f054e3eb8c6bb0003b127004359c17bd4a22424c8d3e24e"
+    },
+    {
+      "path": "copied-component/LICENSE.txt",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "copied-component/MAINTAINERS.md",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "b3a592b73c5760d4ed053f21551618d4b674064f",
+      "bytes": 515,
+      "sha256": "6c357b4b6d29ef84280cc495d7205bbe0ca54f4f0394053c9f2773e234ea73af"
+    },
+    {
+      "path": "copied-component/package-lock.json",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "c4c6d68642b8e4648c33da3b40d701ea1bd4eb56",
+      "bytes": 193922,
+      "sha256": "8b603624c45bc0df27cc295e62232d77e110f0543522bfd8d4e2a63e51ce6e7f"
+    },
+    {
+      "path": "copied-component/package.json",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "c6fed55f70f809c6901b8e6fae3278e3410dd1c9",
+      "bytes": 1013,
+      "sha256": "5ea8f6f0a6f9eccd6fc4889d09ab076c1ee34a58f7ab37e0db2ff9cedbc06e4b"
+    },
+    {
+      "path": "copied-component/PR-CHECKLIST.md",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "6978461dcd848a3985fa5024c29abdc6f77c9ec8",
+      "bytes": 358,
+      "sha256": "283603b40910d01a3776fd3c721f6bee3a12178ec87b137e4e56805d492cf811"
+    },
+    {
+      "path": "copied-component/README.md",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "000a9eb21af622ae8523fb8305211ac81eac13b7",
+      "bytes": 2054,
+      "sha256": "36032cd567e93a0ce7f37cc753ba0690e27d08257bb84e15ae6236b1457d1c7b"
+    },
+    {
+      "path": "copied-component/RELEASE-CHECKLIST.md",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "427da47147f19a7492d9bd46685b109d04563ff6",
+      "bytes": 806,
+      "sha256": "f6157fd5e517d09d79eb1bcfda84275dcf7ade34e32c75f3f5d394f15ed2a98e"
+    },
+    {
+      "path": "copied-component/SECURITY-INSIGHTS.yml",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "49c5c025c63c3167a1717c219a287aa7f4fd9613",
+      "bytes": 2129,
+      "sha256": "fe511de6eb3c75afcf4589ba7bf6b99ba95d96516554a1b0a42095e3909f150c"
+    },
+    {
+      "path": "copied-component/test/.gitignore",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "c2dab86c8ef0d439619a7775cdf108a18b02acd0",
+      "bytes": 82,
+      "sha256": "ca776ea021f66f092f2d2a6909fe39203296e0bb7a3ee61e6f92968dbe0d9550"
+    },
+    {
+      "path": "copied-component/test/app/app.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "1bd09c88a031bf8a1f9d38dcdf8170bc52732856",
+      "bytes": 1258,
+      "sha256": "79728ba87833a3113c205c658bcadba2a1aafafdb5f2bd8fd11cf0351beb850f"
+    },
+    {
+      "path": "copied-component/test/app/public/index.html",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "dc372e353dd9f3ef249a80159c4871be4091f1cc",
+      "bytes": 633,
+      "sha256": "abb5bc651e3c132706040fbf7ef9ceec67a12aa6e07b40a1187a7e700388281f"
+    },
+    {
+      "path": "copied-component/test/app/public/silent-check-sso.html",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "9435ce65b4cd1d4b299e6bf9637123ccf196a1be",
+      "bytes": 134,
+      "sha256": "72f2f9d8d576ba95870a7103bb21efbf218b357e09f20714621679ef5ee910af"
+    },
+    {
+      "path": "copied-component/test/package.json",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "14c32c4b33d4e96efd2ded366108f223ae71158b",
+      "bytes": 351,
+      "sha256": "321c1b3fbe5c8787fa293d66c040f39ae0501ca491b054c84cb0418cea6030d2"
+    },
+    {
+      "path": "copied-component/test/playwright.config.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "7d95b517af38ca04b6439fa7b731ad351d0f3b17",
+      "bytes": 1539,
+      "sha256": "adbeab899966c452f5c254ee18ee74ed9d0cd28ab0aeab9d6ad75e07d420cb39"
+    },
+    {
+      "path": "copied-component/test/README.md",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "3ba97f55662d990179eff06d53e7dfa5c0a9468d",
+      "bytes": 3868,
+      "sha256": "16b9f9d88255e5be72300896ca4d152adc32e7d4cb14f4a9a874bc75bd0777cb"
+    },
+    {
+      "path": "copied-component/test/support/admin-client.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "382abdf9f33dfb99d7ccc8824251b1d8ff147420",
+      "bytes": 598,
+      "sha256": "01d3870fea2e882d1fbc59a82deb2cab8fdc02c03369b58c797113a8302ed28e"
+    },
+    {
+      "path": "copied-component/test/support/common.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "369dacdbbd408ccb1b060462b9bfd44ac8ab6dc6",
+      "bytes": 695,
+      "sha256": "c6f3c0e5080e6d9c437a469ec69f541e8fba63311077985dcf597a948c964ffe"
+    },
+    {
+      "path": "copied-component/test/support/dpop-helpers.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "d5585d602d7256ae1afbf40df412096140b9de00",
+      "bytes": 2629,
+      "sha256": "2bd572ae5ca99c3f4bd69bf238e75790f7e8698b864702ba11e1e03138f5a534"
+    },
+    {
+      "path": "copied-component/test/support/test-executor.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "36013f1272920881685914b0c5869c5a59ed879d",
+      "bytes": 10205,
+      "sha256": "9f8d6d592e938e2bf9c7597704d4a7ffc0bf5cd991fb5c43e5e7967831152103"
+    },
+    {
+      "path": "copied-component/test/support/testbed.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "ef36dd0fecaf8f890dc035509e75ff62dd1158d5",
+      "bytes": 3652,
+      "sha256": "c08a19bed39b52d38813587a603413483c0542b81914abe07e8b8fac017f0e12"
+    },
+    {
+      "path": "copied-component/test/tests/account-url.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "3020b84648ed8b194da6885220d047eda757c13f",
+      "bytes": 2003,
+      "sha256": "7dae7d6b64debf457de5fe3eb73456394cb6342151b878a2de23a693bb87550a"
+    },
+    {
+      "path": "copied-component/test/tests/dpop.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "9e452ccc246c040e7c2e9b27d8de8a1f2e7ffa67",
+      "bytes": 15541,
+      "sha256": "1df584696e5c3c5d720abc7ada0271864c200ae08ed3c191f283fc7834fadf18"
+    },
+    {
+      "path": "copied-component/test/tests/implicit-flow.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "ef25e3d0f0fe110d36229e2d25b5d2d2297c76aa",
+      "bytes": 4769,
+      "sha256": "f903411a603c8e72f40b3b6553da4c5c3e4e714c847a0c91aaed9ad68cb52d81"
+    },
+    {
+      "path": "copied-component/test/tests/init.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "aa61ae177b61b54ef64afb6a10795aca022366cd",
+      "bytes": 461,
+      "sha256": "c40320b118078180056bf0076c972b64eb967d3cb5534a43d97d47614844b583"
+    },
+    {
+      "path": "copied-component/test/tests/login-url.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "914d39d827f7b17b7867972a5b13777528a43a29",
+      "bytes": 7420,
+      "sha256": "9e701254d8659a6deaed519a72874e4b2eb4100a5cb9b75d3fcc2fe474c84d82"
+    },
+    {
+      "path": "copied-component/test/tests/login-with-redirect.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "07017e73f45362ae2bded026878ecdc75e7def1d",
+      "bytes": 1688,
+      "sha256": "f11a655e2595ddb4f188e8b7658e488f5dc77c7fd83d9e0b9827dc40150b3eab"
+    },
+    {
+      "path": "copied-component/test/tests/login.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "db8604f4e35319abe6a90615ec08ae45fb16a16d",
+      "bytes": 8752,
+      "sha256": "6d01f636c7e286259ea70da9771029af2aceaa2c17814a0e84923aaa77d3003b"
+    },
+    {
+      "path": "copied-component/test/tests/logout-url.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "994e85a79631737f32c8a1605ada9ea3a888e659",
+      "bytes": 3499,
+      "sha256": "f3a5ba85afe595e6cc1c08979fd8fa2a5ad68876d296b76b62445b2af574d575"
+    },
+    {
+      "path": "copied-component/test/tests/preserves-fragment.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "eff6cbbaca5a06fcacdef2ce9eb8839298933424",
+      "bytes": 4644,
+      "sha256": "8ccfb9f45b6db50c8a4df29c742dd4f4f5fa1f95262210e08de242e87b96a36f"
+    },
+    {
+      "path": "copied-component/test/tests/register-url.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "4db03e5abee96fe0600e1ff7bccfc85149bd9840",
+      "bytes": 4050,
+      "sha256": "991a48303bb60df48f04504463633c4b82f6f7516865d9d8a14dcf0ecb435ad9"
+    },
+    {
+      "path": "copied-component/test/tests/scope.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "801e6b2f36207e65aa1b855575988e7e2410dab9",
+      "bytes": 2088,
+      "sha256": "42fef027ffbf47a4da607afead4cc9ed0bf3969b9fbee2459f4848c679d58a57"
+    },
+    {
+      "path": "copied-component/test/tests/silent-sso.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "68e943a8cf82fb71298ff842f5cd0ac4190108d4",
+      "bytes": 3418,
+      "sha256": "7f258d16428bea99d4a5899f95c0cde6745c652a9d0dbf073dac7efd47f987a5"
+    },
+    {
+      "path": "copied-component/test/tests/token.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "0f89b938b18122f6eab31330fd4c10d329dc1511",
+      "bytes": 2661,
+      "sha256": "0a2d098bb1cbb729cf6c240acb97101b5940d1f9728e724409a99d95d94cbd77"
+    },
+    {
+      "path": "copied-component/test/tests/user-info.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "d673a34f70f2994db16ce0a5e4491e62bc7cff5d",
+      "bytes": 1159,
+      "sha256": "e962249cd0ef5e9d4f188c53f5f52affe0b1e9d1842715b6b5a5910d5045df06"
+    },
+    {
+      "path": "copied-component/test/tests/user-profile.spec.ts",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "63ebcea05b360e66556ba689c832710f056dc821",
+      "bytes": 2101,
+      "sha256": "24b1a177351d4fd1f7b17cf672ce94286ac12f1816423d5c5843b1b3436a562a"
+    },
+    {
+      "path": "copied-component/tsconfig.json",
+      "sourceGitMode": "100644",
+      "gitBlobSHA1": "16011e28c1468b04b8bbecb0e2bb16710bde8eae",
+      "bytes": 247,
+      "sha256": "9d8e7771a00c411688f847cfe3505b424be865ca0b009c6f4bd2d81a7f76324e"
+    }
+  ],
+  "example": {
+    "selectedDerivedFiles": [
+      {
+        "sourcePath": "server/app.js",
+        "stagedPath": "example/server/app.js",
+        "sha256": "3ae1fc99bb1e679cad8557c44b8a442269fe09ef456044a28cfc46ced8d6457e",
+        "bytes": 2648,
+        "basedOn": [
+          "source-reference/test/app/app.ts",
+          "source-reference/test/app/public/index.html"
+        ],
+        "adaptation": "Loopback-only Express host and local auth URL, serves the copied adapter, validates synthetic realm names, adds an in-memory preview counter without server authentication."
+      },
+      {
+        "sourcePath": "public/index.html",
+        "stagedPath": "example/public/index.html",
+        "sha256": "7c38d5ffa586a32524ee194c460ab1239b9e9dd13aa253b90c54016dbc5f3ee6",
+        "bytes": 3527,
+        "basedOn": [
+          "source-reference/test/app/public/index.html"
+        ],
+        "adaptation": "Keeps the official adapter import but replaces the empty test harness body with the synthetic workspace UI."
+      },
+      {
+        "sourcePath": "public/app.js",
+        "stagedPath": "example/public/app.js",
+        "sha256": "60bf0904f478acacc7ed69428aca9ca7d3698d5e4f35e14feea533b2fdae1d9b",
+        "bytes": 9527,
+        "basedOn": [
+          "lib/keycloak.js",
+          "official Keycloak JavaScript adapter guide updateToken service-call example"
+        ],
+        "adaptation": "Uses the copied adapter for S256 login, refresh, UserInfo, callback rejection and logout; persists only the synthetic draft in sessionStorage; checks action generation and identity after every awaited request/response; treats any dispatched but unverified preview as outcome-unknown."
+      },
+      {
+        "sourcePath": "public/app.css",
+        "stagedPath": "example/public/app.css",
+        "sha256": "ad5d09b0868d5be8de73e56eec115e7f8d2db7a2f39830168ed5dbf23dd4c8dc",
+        "bytes": 3605,
+        "basedOn": [
+          "../../tenant-request-portal/public/index.html",
+          "../../tenant-request-portal/DESIGN.md"
+        ],
+        "adaptation": "New styles reuse the inspected portfolio demo hierarchy, accessible labels/status regions, visible focus and mobile stacking."
+      },
+      {
+        "sourcePath": "test/support/common.ts",
+        "stagedPath": "example/test/support/common.ts",
+        "sha256": "4ac608f944144297b73f6ae09ef24f6585fefda2b2366d953dc9e043e505877f",
+        "bytes": 695,
+        "basedOn": [
+          "source-reference/test/support/common.ts"
+        ],
+        "adaptation": "Changes only the configured origins to 127.0.0.1; synthetic fixture accounts and client identifiers remain local test inputs."
+      },
+      {
+        "sourcePath": "test/support/fixtures.ts",
+        "stagedPath": "example/test/support/fixtures.ts",
+        "sha256": "6849f0d1770ca9ab34c6eb580a7cc6621610060efa7cb1e102255f95ddfeaac2",
+        "bytes": 440,
+        "basedOn": [
+          "test/support/testbed.ts",
+          "test/support/admin-client.ts"
+        ],
+        "adaptation": "Adds per-case deletion of the synthetic realm created by the copied upstream fixture."
+      },
+      {
+        "sourcePath": "test/playwright.config.ts",
+        "stagedPath": "example/test/playwright.config.ts",
+        "sha256": "65fe5c2630753fe74579a60ba65f04f67c20696967d6eebb1149e6cde478d8ce",
+        "bytes": 562,
+        "basedOn": [
+          "upstream test/playwright.config.ts"
+        ],
+        "adaptation": "Task-local one-project Chromium configuration uses the real externally started local Keycloak release and starts/stops only the owned Express test app; no container command."
+      },
+      {
+        "sourcePath": "test/tests/business-app.spec.ts",
+        "stagedPath": "example/test/tests/business-app.spec.ts",
+        "sha256": "0cd9181fbf95182a2e1e14fb25cbadc0cf57fe063c5dfd326be2119917df7363",
+        "bytes": 17971,
+        "basedOn": [
+          "source-reference/test/support/testbed.ts",
+          "source-reference/test/support/test-executor.ts",
+          "source-reference/test/support/admin-client.ts",
+          "official Keycloak adapter guide"
+        ],
+        "adaptation": "Thirteen actual-browser cases against real local Keycloak, including controlled real-provider response delays across logout and labeled transport-loss injection after the real synthetic endpoint accepted the operation."
+      },
+      {
+        "sourcePath": "package.json",
+        "stagedPath": "example/package.json",
+        "sha256": "9d21273b7c75928d1e5cef069405e9dde21da82c4dbb78ea95d891fdb5b0812d",
+        "bytes": 391,
+        "basedOn": [
+          "source-reference/test/package.json"
+        ],
+        "adaptation": "Uses the existing direct test dependencies; adds no runtime dependency."
+      },
+      {
+        "sourcePath": "package-lock.json",
+        "stagedPath": "example/package-lock.json",
+        "sha256": "fc9444a98fe8fc2f0208822fefa00bec375b18b301eadd69a1cf6c0b216b3034",
+        "bytes": 39454,
+        "basedOn": [
+          "package.json"
+        ],
+        "adaptation": "Task-local fixed lock for the selected existing dependency versions."
+      }
+    ],
+    "supportFiles": [
+      {
+        "sourcePath": "LICENSE.txt",
+        "stagedPath": "example/LICENSE.txt",
+        "sourceSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "stagedSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358,
+        "copiedExactly": true,
+        "sourceGitMode": "100644"
+      },
+      {
+        "sourcePath": "README.md",
+        "stagedPath": "example/README.md",
+        "sourceSHA256": "5d8b1022abe37bf2e5e7fdd5b3155ee182c3ca2dd5f452adc77ba5a961ad242f",
+        "stagedSHA256": "925d533aa1424e90d5f25adeab63c3f8dcf3f27fbe21cc0bf6e33ab7fd80adb6",
+        "bytes": 3622,
+        "copiedExactly": false,
+        "sourceGitMode": null,
+        "projectionEdit": "Rebound the source-provenance link to ../PROVENANCE.json."
+      },
+      {
+        "sourcePath": "DESIGN.md",
+        "stagedPath": "example/DESIGN.md",
+        "sourceSHA256": "17263c38ea349b32cd050ec7228edea0faf629841649a4d509644b482baee3e8",
+        "stagedSHA256": "53a2b621f3a0da2f77d649fdf3eb73ea6777be53ca47ededc62967a2244a01ce",
+        "bytes": 2081,
+        "copiedExactly": false,
+        "sourceGitMode": null,
+        "projectionEdit": "Rebound reference links to the verified published Tenant Request Portal commit e835a9047054510c74bf936cb8c1628719e64551."
+      },
+      {
+        "sourcePath": "lib/keycloak.js",
+        "stagedPath": "example/lib/keycloak.js",
+        "sourceSHA256": "e77ac54c8501a4e93f054e3eb8c6bb0003b127004359c17bd4a22424c8d3e24e",
+        "stagedSHA256": "e77ac54c8501a4e93f054e3eb8c6bb0003b127004359c17bd4a22424c8d3e24e",
+        "bytes": 71792,
+        "copiedExactly": true,
+        "sourceGitMode": "100755"
+      },
+      {
+        "sourcePath": "lib/keycloak.d.ts",
+        "stagedPath": "example/lib/keycloak.d.ts",
+        "sourceSHA256": "69181fac5159cf3179c15967555aa87009c7c8fbc7bd9188b76891162a6e5fca",
+        "stagedSHA256": "69181fac5159cf3179c15967555aa87009c7c8fbc7bd9188b76891162a6e5fca",
+        "bytes": 21804,
+        "copiedExactly": true,
+        "sourceGitMode": "100644"
+      },
+      {
+        "sourcePath": "lib/deprecations.js",
+        "stagedPath": "example/lib/deprecations.js",
+        "sourceSHA256": "afaac168f913d2a38bedac7517861ae61d44f60e189bd797dc61802d6dadab2d",
+        "stagedSHA256": "afaac168f913d2a38bedac7517861ae61d44f60e189bd797dc61802d6dadab2d",
+        "bytes": 1122,
+        "copiedExactly": true,
+        "sourceGitMode": "100644"
+      },
+      {
+        "sourcePath": "test/support/admin-client.ts",
+        "stagedPath": "example/test/support/admin-client.ts",
+        "sourceSHA256": "01d3870fea2e882d1fbc59a82deb2cab8fdc02c03369b58c797113a8302ed28e",
+        "stagedSHA256": "01d3870fea2e882d1fbc59a82deb2cab8fdc02c03369b58c797113a8302ed28e",
+        "bytes": 598,
+        "copiedExactly": true,
+        "sourceGitMode": "100644"
+      },
+      {
+        "sourcePath": "test/support/test-executor.ts",
+        "stagedPath": "example/test/support/test-executor.ts",
+        "sourceSHA256": "9f8d6d592e938e2bf9c7597704d4a7ffc0bf5cd991fb5c43e5e7967831152103",
+        "stagedSHA256": "9f8d6d592e938e2bf9c7597704d4a7ffc0bf5cd991fb5c43e5e7967831152103",
+        "bytes": 10205,
+        "copiedExactly": true,
+        "sourceGitMode": "100644"
+      },
+      {
+        "sourcePath": "test/support/testbed.ts",
+        "stagedPath": "example/test/support/testbed.ts",
+        "sourceSHA256": "c08a19bed39b52d38813587a603413483c0542b81914abe07e8b8fac017f0e12",
+        "stagedSHA256": "c08a19bed39b52d38813587a603413483c0542b81914abe07e8b8fac017f0e12",
+        "bytes": 3652,
+        "copiedExactly": true,
+        "sourceGitMode": "100644"
+      }
+    ],
+    "adapterRuntimeBinding": {
+      "importMap": "example/public/index.html maps keycloak-js to /lib/keycloak.js.",
+      "serverMapping": "example/server/app.js serves example/lib at /lib.",
+      "adapterFiles": [
+        {
+          "componentPath": "copied-component/lib/keycloak.js",
+          "executedExamplePath": "example/lib/keycloak.js",
+          "sha256": "e77ac54c8501a4e93f054e3eb8c6bb0003b127004359c17bd4a22424c8d3e24e",
+          "bytes": 71792,
+          "byteIdentical": true
+        },
+        {
+          "componentPath": "copied-component/lib/keycloak.d.ts",
+          "executedExamplePath": "example/lib/keycloak.d.ts",
+          "sha256": "69181fac5159cf3179c15967555aa87009c7c8fbc7bd9188b76891162a6e5fca",
+          "bytes": 21804,
+          "byteIdentical": true
+        },
+        {
+          "componentPath": "copied-component/lib/deprecations.js",
+          "executedExamplePath": "example/lib/deprecations.js",
+          "sha256": "afaac168f913d2a38bedac7517861ae61d44f60e189bd797dc61802d6dadab2d",
+          "bytes": 1122,
+          "byteIdentical": true
+        },
+        {
+          "componentPath": "copied-component/lib/keycloak-dpop.js",
+          "executedExamplePath": "example/lib/keycloak-dpop.js",
+          "sha256": "45d40a8b5b6cf87d80b269d1c7f41aa14b8c838c8bce15345c1ca3219cdb6f86",
+          "bytes": 16485,
+          "byteIdentical": true
+        }
+      ],
+      "additionalExactSupport": "keycloak.js has a lazy import for keycloak-dpop.js; that pinned module is copied byte-identically for import completeness. This demo does not enable DPoP."
+    },
+    "projectionEdits": [
+      "Adjusted the example README source-provenance link to the staged ../PROVENANCE.json.",
+      "Rebound DESIGN.md reference links to the verified published Tenant Request Portal commit e835a9047054510c74bf936cb8c1628719e64551.",
+      "Added manual app start command and self-contained documentation references.",
+      "Added root .gitattributes with * -text to preserve copied bytes across Git checkouts."
+    ],
+    "sourceProvenanceFileNotCopied": true
+  },
+  "historicalEvidence": {
+    "selectedBrowserRun": {
+      "selectedCases": 13,
+      "passed": 13,
+      "failed": 0,
+      "elapsed": "32.2s",
+      "provider": "Real local Keycloak 26.8.0",
+      "runtime": "Real local Keycloak 26.8.0; Java 25.0.4.1+1; Node 24.18.0; npm 11.16.0; Playwright 1.62.1; Chromium",
+      "outputEvidence": "Observed exec-session output: Running 13 tests using 1 worker; 13 passed (32.2s). No persistent raw log was created.",
+      "rawLogExists": false,
+      "predatesFourPostDispatchWordingEdits": true,
+      "testLogicChangedAfterRun": false
+    },
+    "sourceAndCopyBaseline": "Both recorded 187 passed and 8 failed out of 195; the same eight Firefox cross-origin DPoP cases failed with ENOTFOUND kjs-auth.localhost.",
+    "rerunDuringCuration": false
+  },
+  "currentVerification": {
+    "approvedSingleRetry": {
+      "observedAtUTC": "2026-10-09 23:34:38 UTC",
+      "provider": {
+        "starts": 1,
+        "discoveryHTTPStatus": 200,
+        "issuer": "http://127.0.0.1:8080/realms/master",
+        "S256Advertised": true
+      },
+      "suite": {
+        "invocations": 1,
+        "command": "npm test",
+        "project": "Chromium local Keycloak",
+        "workers": 1,
+        "exitCode": 0,
+        "timedOut": false,
+        "selected": 13,
+        "passed": 13,
+        "failed": 0,
+        "skipped": 0,
+        "playwrightReportedSeconds": 40.7,
+        "wrapperElapsedSeconds": 41.444,
+        "sanitizedTestLog": {
+          "path": "reviews/oidc-staged-execution-20261010.v4/tests-v3.stdout.sanitized.log",
+          "sha256": "b217bc7128a0057038c8bcec20ae42c55087ebd4633e0b086754f96462664868"
+        },
+        "stderrEmptySHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "testedStageApplicability": {
+        "runTarget": "oidc-business-app-source-v1",
+        "v2AppTestComponentBytesMatchRunTarget": true,
+        "v3RuntimeAndTestFilesChanged": false,
+        "basis": "The v4 execution record identifies the v1 run target and points to separately recorded curation/distribution evidence for v2 byte equivalence; this v3 update changes only root README.md and PROVENANCE.json."
+      },
+      "sourceReadback": {
+        "projectedPaths": 88,
+        "projectedBytes": 774417,
+        "recordedHashesMatchedBeforeAndAfter": true,
+        "componentGitBlobsVerified": 66,
+        "productCodeChangedWithinProjectedPaths": false,
+        "scopeLimit": "These checks cover the recorded projected paths and component blobs, not every runtime or workspace file.",
+        "dependenciesReinstalled": false
+      },
+      "fixtureReadback": {
+        "realms": ["master"],
+        "masterOnly": true,
+        "evidence": "reviews/oidc-staged-execution-20261010.v4/realm-readback.observed-output.json"
+      },
+      "cleanup": {
+        "ownedProviderAlive": false,
+        "ports": {
+          "3000": "closed",
+          "8080": "closed",
+          "9000": "closed"
+        },
+        "ownedH2FilesRemoved": 2,
+        "ownedH2PathExists": false,
+        "providerPIDMarkerArchived": true,
+        "testPIDMarkerRetainedAsHistoricalMetadata": true,
+        "testPIDAndProcessGroupAbsentInIndependentReadback": true,
+        "otherRuntimeWorkspaceDataAudit": "not performed"
+      },
+      "evidence": [
+        "reviews/oidc-staged-execution-20261010.v4.en.json",
+        "reviews/oidc-staged-execution-20261010.v4.en.md",
+        "reviews/oidc-staged-execution-20261010.v4/execution-v4.receipt.json",
+        "reviews/oidc-staged-execution-20261010.v4/realm-readback.observed-output.json",
+        "reviews/oidc-public-curation-20261010.en.json"
+      ],
+      "limits": {
+        "freshMachineSetupProved": false,
+        "otherBrowsersOrFullUpstreamSuiteRun": false,
+        "backendAuthorizationProved": false,
+        "productionReadinessProved": false,
+        "securityProofProved": false,
+        "publicationAuthorizedByThisRun": false
+      }
+    }
+  },
+  "historicalCorrections": {
+    "syntheticRealmCleanup": {
+      "earlierReceiptSaidGeneratedDatabaseRemoved": true,
+      "laterObservedRetainedSyntheticRealms": 390,
+      "narrowlyDeletedSyntheticRealms": 390,
+      "remainingBeforeShutdown": "master",
+      "laterBusinessRunRemainingSyntheticRealms": 0
+    },
+    "v2ReadmeHash": {
+      "historicalV2ReceiptEdited": false,
+      "staleRecordedSHA256": "75034a55832479c3772217fcd322a6b6177057f8f8e040daae7a18090e943ee2",
+      "correctedSourceREADME": {
+        "path": "candidates/oidc-business-app-source-based/improved-app/README.md",
+        "sha256BeforeProjectionLinkEdit": "5d8b1022abe37bf2e5e7fdd5b3155ee182c3ca2dd5f452adc77ba5a961ad242f"
+      }
+    }
+  },
+  "runtimeRequirements": {
+    "java": "Eclipse Temurin OpenJDK 25.0.4.1+1",
+    "keycloak": "Official Keycloak 26.8.0 distribution; external local provider.",
+    "node": "24.18.0",
+    "npm": "11.16.0",
+    "playwright": "1.62.1 with Chromium",
+    "npmTestStarts": "Express demo only; it does not provision or start Keycloak or install Chromium."
+  },
+  "exclusions": {
+    "privateRuntimeDistributionsAndCaches": true,
+    "localDatabaseAndGeneratedH2Data": true,
+    "nodeModulesAndPlaywrightTransientResults": true,
+    "privateLogsAndDebugLaunchers": true,
+    "privateRuntimeCredentialsAndTokens": true,
+    "exactPinnedSourceTestFixturesRetainedVerbatim": true
+  },
+  "projectedFiles": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": "copied-component/test/tests/scope.spec.ts",
+      "sha256": "42fef027ffbf47a4da607afead4cc9ed0bf3969b9fbee2459f4848c679d58a57",
+      "bytes": 2088
+    },
+    {
+      "path": "copied-component/test/tests/register-url.spec.ts",
+      "sha256": "991a48303bb60df48f04504463633c4b82f6f7516865d9d8a14dcf0ecb435ad9",
+      "bytes": 4050
+    },
+    {
+      "path": "copied-component/test/tests/preserves-fragment.spec.ts",
+      "sha256": "8ccfb9f45b6db50c8a4df29c742dd4f4f5fa1f95262210e08de242e87b96a36f",
+      "bytes": 4644
+    },
+    {
+      "path": "copied-component/test/tests/logout-url.spec.ts",
+      "sha256": "f3a5ba85afe595e6cc1c08979fd8fa2a5ad68876d296b76b62445b2af574d575",
+      "bytes": 3499
+    },
+    {
+      "path": "copied-component/test/tests/login.spec.ts",
+      "sha256": "6d01f636c7e286259ea70da9771029af2aceaa2c17814a0e84923aaa77d3003b",
+      "bytes": 8752
+    },
+    {
+      "path": "copied-component/test/tests/login-with-redirect.spec.ts",
+      "sha256": "f11a655e2595ddb4f188e8b7658e488f5dc77c7fd83d9e0b9827dc40150b3eab",
+      "bytes": 1688
+    },
+    {
+      "path": "copied-component/test/tests/login-url.spec.ts",
+      "sha256": "9e701254d8659a6deaed519a72874e4b2eb4100a5cb9b75d3fcc2fe474c84d82",
+      "bytes": 7420
+    },
+    {
+      "path": "copied-component/test/tests/init.spec.ts",
+      "sha256": "c40320b118078180056bf0076c972b64eb967d3cb5534a43d97d47614844b583",
+      "bytes": 461
+    },
+    {
+      "path": "copied-component/test/tests/silent-sso.spec.ts",
+      "sha256": "7f258d16428bea99d4a5899f95c0cde6745c652a9d0dbf073dac7efd47f987a5",
+      "bytes": 3418
+    },
+    {
+      "path": "copied-component/test/tests/implicit-flow.spec.ts",
+      "sha256": "f903411a603c8e72f40b3b6553da4c5c3e4e714c847a0c91aaed9ad68cb52d81",
+      "bytes": 4769
+    },
+    {
+      "path": "copied-component/test/tests/account-url.spec.ts",
+      "sha256": "7dae7d6b64debf457de5fe3eb73456394cb6342151b878a2de23a693bb87550a",
+      "bytes": 2003
+    },
+    {
+      "path": "copied-component/test/support/testbed.ts",
+      "sha256": "c08a19bed39b52d38813587a603413483c0542b81914abe07e8b8fac017f0e12",
+      "bytes": 3652
+    },
+    {
+      "path": "copied-component/test/support/test-executor.ts",
+      "sha256": "9f8d6d592e938e2bf9c7597704d4a7ffc0bf5cd991fb5c43e5e7967831152103",
+      "bytes": 10205
+    },
+    {
+      "path": "copied-component/test/support/dpop-helpers.ts",
+      "sha256": "2bd572ae5ca99c3f4bd69bf238e75790f7e8698b864702ba11e1e03138f5a534",
+      "bytes": 2629
+    },
+    {
+      "path": "copied-component/test/support/common.ts",
+      "sha256": "c6f3c0e5080e6d9c437a469ec69f541e8fba63311077985dcf597a948c964ffe",
+      "bytes": 695
+    },
+    {
+      "path": "copied-component/test/support/admin-client.ts",
+      "sha256": "01d3870fea2e882d1fbc59a82deb2cab8fdc02c03369b58c797113a8302ed28e",
+      "bytes": 598
+    },
+    {
+      "path": "copied-component/test/app/public/silent-check-sso.html",
+      "sha256": "72f2f9d8d576ba95870a7103bb21efbf218b357e09f20714621679ef5ee910af",
+      "bytes": 134
+    },
+    {
+      "path": "copied-component/test/app/public/index.html",
+      "sha256": "abb5bc651e3c132706040fbf7ef9ceec67a12aa6e07b40a1187a7e700388281f",
+      "bytes": 633
+    },
+    {
+      "path": "copied-component/test/tests/dpop.spec.ts",
+      "sha256": "1df584696e5c3c5d720abc7ada0271864c200ae08ed3c191f283fc7834fadf18",
+      "bytes": 15541
+    },
+    {
+      "path": "copied-component/test/app/app.ts",
+      "sha256": "79728ba87833a3113c205c658bcadba2a1aafafdb5f2bd8fd11cf0351beb850f",
+      "bytes": 1258
+    },
+    {
+      "path": "copied-component/test/tests/token.spec.ts",
+      "sha256": "0a2d098bb1cbb729cf6c240acb97101b5940d1f9728e724409a99d95d94cbd77",
+      "bytes": 2661
+    },
+    {
+      "path": "copied-component/test/tests/user-profile.spec.ts",
+      "sha256": "24b1a177351d4fd1f7b17cf672ce94286ac12f1816423d5c5843b1b3436a562a",
+      "bytes": 2101
+    },
+    {
+      "path": "example/test/support/test-executor.ts",
+      "sha256": "9f8d6d592e938e2bf9c7597704d4a7ffc0bf5cd991fb5c43e5e7967831152103",
+      "bytes": 10205
+    },
+    {
+      "path": "example/test/support/fixtures.ts",
+      "sha256": "6849f0d1770ca9ab34c6eb580a7cc6621610060efa7cb1e102255f95ddfeaac2",
+      "bytes": 440
+    },
+    {
+      "path": "example/test/support/common.ts",
+      "sha256": "4ac608f944144297b73f6ae09ef24f6585fefda2b2366d953dc9e043e505877f",
+      "bytes": 695
+    },
+    {
+      "path": "example/test/support/admin-client.ts",
+      "sha256": "01d3870fea2e882d1fbc59a82deb2cab8fdc02c03369b58c797113a8302ed28e",
+      "bytes": 598
+    },
+    {
+      "path": "example/test/playwright.config.ts",
+      "sha256": "65fe5c2630753fe74579a60ba65f04f67c20696967d6eebb1149e6cde478d8ce",
+      "bytes": 562
+    },
+    {
+      "path": "example/server/app.js",
+      "sha256": "3ae1fc99bb1e679cad8557c44b8a442269fe09ef456044a28cfc46ced8d6457e",
+      "bytes": 2648
+    },
+    {
+      "path": "example/public/index.html",
+      "sha256": "7c38d5ffa586a32524ee194c460ab1239b9e9dd13aa253b90c54016dbc5f3ee6",
+      "bytes": 3527
+    },
+    {
+      "path": "example/public/app.js",
+      "sha256": "60bf0904f478acacc7ed69428aca9ca7d3698d5e4f35e14feea533b2fdae1d9b",
+      "bytes": 9527
+    },
+    {
+      "path": "copied-component/test/tests/user-info.spec.ts",
+      "sha256": "e962249cd0ef5e9d4f188c53f5f52affe0b1e9d1842715b6b5a5910d5045df06",
+      "bytes": 1159
+    },
+    {
+      "path": "example/public/app.css",
+      "sha256": "ad5d09b0868d5be8de73e56eec115e7f8d2db7a2f39830168ed5dbf23dd4c8dc",
+      "bytes": 3605
+    },
+    {
+      "path": "example/lib/keycloak.d.ts",
+      "sha256": "69181fac5159cf3179c15967555aa87009c7c8fbc7bd9188b76891162a6e5fca",
+      "bytes": 21804
+    },
+    {
+      "path": "example/lib/keycloak-dpop.js",
+      "sha256": "45d40a8b5b6cf87d80b269d1c7f41aa14b8c838c8bce15345c1ca3219cdb6f86",
+      "bytes": 16485
+    },
+    {
+      "path": "example/lib/deprecations.js",
+      "sha256": "afaac168f913d2a38bedac7517861ae61d44f60e189bd797dc61802d6dadab2d",
+      "bytes": 1122
+    },
+    {
+      "path": "example/README.md",
+      "sha256": "925d533aa1424e90d5f25adeab63c3f8dcf3f27fbe21cc0bf6e33ab7fd80adb6",
+      "bytes": 3622
+    },
+    {
+      "path": "example/package.json",
+      "sha256": "9d21273b7c75928d1e5cef069405e9dde21da82c4dbb78ea95d891fdb5b0812d",
+      "bytes": 391
+    },
+    {
+      "path": "example/package-lock.json",
+      "sha256": "fc9444a98fe8fc2f0208822fefa00bec375b18b301eadd69a1cf6c0b216b3034",
+      "bytes": 39454
+    },
+    {
+      "path": "example/LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "example/DESIGN.md",
+      "sha256": "53a2b621f3a0da2f77d649fdf3eb73ea6777be53ca47ededc62967a2244a01ce",
+      "bytes": 2081
+    },
+    {
+      "path": "example/lib/keycloak.js",
+      "sha256": "e77ac54c8501a4e93f054e3eb8c6bb0003b127004359c17bd4a22424c8d3e24e",
+      "bytes": 71792
+    },
+    {
+      "path": "copied-component/test/README.md",
+      "sha256": "16b9f9d88255e5be72300896ca4d152adc32e7d4cb14f4a9a874bc75bd0777cb",
+      "bytes": 3868
+    },
+    {
+      "path": "copied-component/test/playwright.config.ts",
+      "sha256": "adbeab899966c452f5c254ee18ee74ed9d0cd28ab0aeab9d6ad75e07d420cb39",
+      "bytes": 1539
+    },
+    {
+      "path": "copied-component/test/package.json",
+      "sha256": "321c1b3fbe5c8787fa293d66c040f39ae0501ca491b054c84cb0418cea6030d2",
+      "bytes": 351
+    },
+    {
+      "path": "copied-component/.github/workflows/release-nightly.yml",
+      "sha256": "f8c766ef06c280646ac422f13a7b7b2949326f078244e3c65f85a2adc3f7518c",
+      "bytes": 377
+    },
+    {
+      "path": "copied-component/.github/workflows/main.yml",
+      "sha256": "2fe85e3f54eae00972fe817b3479c3546f795fe9d93df734ec49a843cb316eba",
+      "bytes": 1071
+    },
+    {
+      "path": "copied-component/.github/actions/setup/action.yml",
+      "sha256": "0fee04667a6772f648b9ef50cbf98f990a64e5fa13006aa1a06a00d89108db21",
+      "bytes": 544
+    },
+    {
+      "path": "copied-component/.github/dependabot.yml",
+      "sha256": "a09316aca4b2e8a263f5c806158f4c6f9a9477e3ff9471ea3309609b03041b2b",
+      "bytes": 441
+    },
+    {
+      "path": "copied-component/.github/CODEOWNERS",
+      "sha256": "61e68fc36874bb8e22a1d61d24a24ca65d74d9e12d75f496b4abc21bf92daeab",
+      "bytes": 49
+    },
+    {
+      "path": "copied-component/tsconfig.json",
+      "sha256": "9d8e7771a00c411688f847cfe3505b424be865ca0b009c6f4bd2d81a7f76324e",
+      "bytes": 247
+    },
+    {
+      "path": "copied-component/SECURITY-INSIGHTS.yml",
+      "sha256": "fe511de6eb3c75afcf4589ba7bf6b99ba95d96516554a1b0a42095e3909f150c",
+      "bytes": 2129
+    },
+    {
+      "path": "copied-component/RELEASE-CHECKLIST.md",
+      "sha256": "f6157fd5e517d09d79eb1bcfda84275dcf7ade34e32c75f3f5d394f15ed2a98e",
+      "bytes": 806
+    },
+    {
+      "path": "copied-component/.github/workflows/release.yml",
+      "sha256": "2fc362a38d8fa1ddd1fdc5706468982c17bd0b55bb6a4ff51521bae72cfc2094",
+      "bytes": 387
+    },
+    {
+      "path": "copied-component/README.md",
+      "sha256": "36032cd567e93a0ce7f37cc753ba0690e27d08257bb84e15ae6236b1457d1c7b",
+      "bytes": 2054
+    },
+    {
+      "path": "copied-component/package.json",
+      "sha256": "5ea8f6f0a6f9eccd6fc4889d09ab076c1ee34a58f7ab37e0db2ff9cedbc06e4b",
+      "bytes": 1013
+    },
+    {
+      "path": "copied-component/package-lock.json",
+      "sha256": "8b603624c45bc0df27cc295e62232d77e110f0543522bfd8d4e2a63e51ce6e7f",
+      "bytes": 193922
+    },
+    {
+      "path": "copied-component/MAINTAINERS.md",
+      "sha256": "6c357b4b6d29ef84280cc495d7205bbe0ca54f4f0394053c9f2773e234ea73af",
+      "bytes": 515
+    },
+    {
+      "path": "copied-component/LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "copied-component/GOVERNANCE.md",
+      "sha256": "57f0915dde188b28e83af41fe938c465615d519aba180d1e56f452c5ee903973",
+      "bytes": 150
+    },
+    {
+      "path": "copied-component/CONTRIBUTING.md",
+      "sha256": "4f7c2273ee312e2e5619addd75a41affd8c9df6a412a484e24da8f887a1c2fc6",
+      "bytes": 622
+    },
+    {
+      "path": "copied-component/.gitignore",
+      "sha256": "1eb76c313815a61a2bd5085701e23d827a1cd61cc4cc3816f2ef5fc472a16027",
+      "bytes": 1587
+    },
+    {
+      "path": "README.md",
+      "sha256": "8ca8f8940cdfe950c51c8419a7f8fc50015b8f90553b8c0db5a8c13816c4589c",
+      "bytes": 4681
+    },
+    {
+      "path": "copied-component/PR-CHECKLIST.md",
+      "sha256": "283603b40910d01a3776fd3c721f6bee3a12178ec87b137e4e56805d492cf811",
+      "bytes": 358
+    },
+    {
+      "path": "copied-component/.github/workflows/x-release.yml",
+      "sha256": "752747e8ba4bbe816e0825eaf2e10a9ae2468b8502ebabbdb1c4736db865cb89",
+      "bytes": 3388
+    },
+    {
+      "path": "copied-component/docs/guides/attributes.adoc",
+      "sha256": "6d28d59e673aab66ea542d330516b1a458807e94a40c33e57b1456383614a9da",
+      "bytes": 296
+    },
+    {
+      "path": "copied-component/docs/guides/guides.mjs",
+      "sha256": "1d2380e6d6c37e84fc953eafedb3fd596e5e15e1513e0ba2e349ceae52d6d827",
+      "bytes": 4780
+    },
+    {
+      "path": "copied-component/test/.gitignore",
+      "sha256": "ca776ea021f66f092f2d2a6909fe39203296e0bb7a3ee61e6f92968dbe0d9550",
+      "bytes": 82
+    },
+    {
+      "path": "copied-component/lib/keycloak.js",
+      "sha256": "e77ac54c8501a4e93f054e3eb8c6bb0003b127004359c17bd4a22424c8d3e24e",
+      "bytes": 71792
+    },
+    {
+      "path": "copied-component/lib/keycloak.d.ts",
+      "sha256": "69181fac5159cf3179c15967555aa87009c7c8fbc7bd9188b76891162a6e5fca",
+      "bytes": 21804
+    },
+    {
+      "path": "copied-component/lib/keycloak-dpop.js",
+      "sha256": "45d40a8b5b6cf87d80b269d1c7f41aa14b8c838c8bce15345c1ca3219cdb6f86",
+      "bytes": 16485
+    },
+    {
+      "path": "copied-component/lib/keycloak-dpop.d.ts",
+      "sha256": "5b4e835e93a19c3f40bd76461f2275049010049cc650b88c37fc318685e87599",
+      "bytes": 3010
+    },
+    {
+      "path": "copied-component/lib/keycloak-authz.js",
+      "sha256": "8da4ce8af55dc7e81cc5851c964861fc39678c41b6513edd8a6ccf31be4acf8d",
+      "bytes": 9278
+    },
+    {
+      "path": "copied-component/lib/keycloak-authz.d.ts",
+      "sha256": "523226e9c18da63b9767197613030b8be08e13f80679a0a50d069002fd7ce8e7",
+      "bytes": 5425
+    },
+    {
+      "path": "copied-component/lib/deprecations.js",
+      "sha256": "afaac168f913d2a38bedac7517861ae61d44f60e189bd797dc61802d6dadab2d",
+      "bytes": 1122
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_3_0.adoc",
+      "sha256": "93170402c221125fc805e652cca032f6be0a1e46cc94dfb76d0382a0d85a2afc",
+      "bytes": 3021
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_4.adoc",
+      "sha256": "921f0e71bafa25d3f788bdc424b9e409e1599e716722371e091d6f7b1959d688",
+      "bytes": 1138
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_3.adoc",
+      "sha256": "072151d26fe2ed6583b29ec6ef4e3a8712951670c50d62b7bf1e9be51665c31c",
+      "bytes": 723
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_2.adoc",
+      "sha256": "18f23e8e5df7108742f11c206ab5ffadd031b94ad4dbc2b579c01b8797d21b1f",
+      "bytes": 2585
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_1.adoc",
+      "sha256": "63021dd2dc578d6d58d0345f2bcd4791720b32cfd3b895109f66cfe959b94c10",
+      "bytes": 577
+    },
+    {
+      "path": "copied-component/docs/release-notes/26_2_0.adoc",
+      "sha256": "f2e30b3d526d5cdf2b1f8239c25abaa5a58d83af300c485728e173912e1db575",
+      "bytes": 2810
+    },
+    {
+      "path": "copied-component/docs/guides/templates/options.adoc",
+      "sha256": "d4123fc046f4732dda1d2433bbc28cdef236dc16f4ee3fb346a6d8819419d542",
+      "bytes": 2079
+    },
+    {
+      "path": "copied-component/docs/guides/templates/links.adoc",
+      "sha256": "fc456cfdd27271b77095a2c93ebc610dfd01fb69be0acff22101f40c3d6f3635",
+      "bytes": 148
+    },
+    {
+      "path": "copied-component/docs/guides/templates/guide.adoc",
+      "sha256": "4f4446581fd65782969d182ed332c8c8ee973906213596fe87d3255d74f4d08c",
+      "bytes": 1041
+    },
+    {
+      "path": "copied-component/docs/guides/securing-apps/javascript-adapter.adoc",
+      "sha256": "c64a3033adc13bea0caa0689ae9813850ae83c80f0f0272879f49f6d41024a61",
+      "bytes": 34765
+    },
+    {
+      "path": "copied-component/docs/guides/images/logo.svg",
+      "sha256": "f2498d34a4a4a0ec047576b5d58995fafe16e400829887c7fde0ff69047645c1",
+      "bytes": 7562
+    },
+    {
+      "path": "example/test/support/testbed.ts",
+      "sha256": "c08a19bed39b52d38813587a603413483c0542b81914abe07e8b8fac017f0e12",
+      "bytes": 3652
+    },
+    {
+      "path": "example/test/tests/business-app.spec.ts",
+      "sha256": "0cd9181fbf95182a2e1e14fb25cbadc0cf57fe063c5dfd326be2119917df7363",
+      "bytes": 17971
+    }
+  ]
+}
