@@ -1,0 +1,59 @@
+# SPDX-License-Identifier: Apache-2.0
+# Derived from the pinned Keycloak JS CI/test setup; see docs/CI.md.
+name: Local OIDC integration
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  chromium:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash
+        working-directory: example
+    steps:
+      - name: Check out source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24.18.0
+          cache: npm
+          cache-dependency-path: example/package-lock.json
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Install Chromium and system dependencies
+        run: npx playwright install --with-deps chromium
+      - name: Start disposable Keycloak
+        run: |
+          docker run --detach --name oidc-ci-keycloak --memory=2g \
+            --publish 127.0.0.1:8080:8080 \
+            --env KC_BOOTSTRAP_ADMIN_USERNAME=admin \
+            --env KC_BOOTSTRAP_ADMIN_PASSWORD=admin \
+            quay.io/keycloak/keycloak@sha256:b0f60d489d51c5d113390bdf5461d4c06e6051be026c05549f2e1e10ec352bcc start-dev
+      - name: Wait for master discovery
+        run: |
+          for attempt in $(seq 1 90); do
+            if curl --fail --silent --max-time 2 \
+              http://127.0.0.1:8080/realms/master/.well-known/openid-configuration \
+              | jq --exit-status '.issuer == "http://127.0.0.1:8080/realms/master" and (.code_challenge_methods_supported | index("S256") != null)' >/dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Keycloak discovery did not become ready within the bounded wait." >&2
+          exit 1
+      - name: Run the selected browser suite
+        run: npm test
+      - name: Remove the owned disposable provider
+        if: always()
+        run: |
+          if docker container inspect oidc-ci-keycloak >/dev/null 2>&1; then
+            docker container rm --force oidc-ci-keycloak
+          fi
